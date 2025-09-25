@@ -4,46 +4,46 @@ This project reinforces the concept of remote repositories and introduces you to
 
 **STEPS**
 
-*1.Create a New Repository o Github*
--Log into your github account
--Navigate to the repository creation page
--Name your repository
--Choose visibility as public
--Click Create repository
+*1.Create a New Repository o Github*<br>
+-Log into your github account<br>
+-Navigate to the repository creation page<br>
+-Name your repository<br>
+-Choose visibility as public<br>
+-Click Create repository<br>
 
-*2.Clone the Repository*
--Copy the htpps link of the created repo
--open your terminal or command prompt
--Choose a suitable directory to clone the repo
--Execute the clone command:
+*2.Clone the Repository*<br>
+-Copy the htpps link of the created repo<br>
+-open your terminal or command prompt<br>
+-Choose a suitable directory to clone the repo<br>
+-Execute the clone command:<br>
 
 ``git clone <Repos_url>``
 
--Replace <repo_url> with the url you copied from github
+-Replace <repo_url> with the url you copied from github<br>
 
 
-*3.Add New Content*
--Navigate into the cloned repo directory
--Execute the command:
+*3.Add New Content*<br>
+-Navigate into the cloned repo directory<br>
+-Execute the command:<br>
 
 ``cd <Repo_name>``
 
--Make the necessary changes needed
+-Make the necessary changes needed<br>
 
 
-*4.Commit your chaned*
--Add the new file to the staging area using
--Execute the command:
+*4.Commit your chaned*<br>
+-Add the new file to the staging area using<br>
+-Execute the command:<br>
 
 ``git add .``
 
--commit the changes to you local repo
--Execute the command:
+-commit the changes to you local repo<br>
+-Execute the command:<br>
 
 ``git commit -m "a descriptive message of your changes"``
 
-*5.Push Your Changes*
--Push your changes to the github repo
--Execute the command:
+*5.Push Your Changes*<br>
+-Push your changes to the github repo<br>
+-Execute the command:<br>
 
 ``git push origin <your_branch>``
